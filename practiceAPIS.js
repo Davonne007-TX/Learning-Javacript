@@ -21,7 +21,6 @@
 //     console.log("This is in the catch " + message);
 // })
 
-
 //
 
 //Make a promise, that takes a resolve, and a reject
@@ -142,3 +141,6 @@ const getAllPokemon = async () => {
   };
   
   getAllPokemon();
+
+
+  
