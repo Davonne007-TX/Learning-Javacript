@@ -14,7 +14,7 @@ function main () {
 
     //creating an image 
     const myImage = document.createElement("img");
-    myImage.src = "pinkKeyboard.jpg";
+    myImage.src = "..//images/pinkKeyboard.jpg";
 
     myImage.style.maxWidth = "900px";
     myImage.style.marginLeft = "auto";
