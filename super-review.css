@@ -1,0 +1,27 @@
+/*html*/
+html {
+    background-color: #F08989;
+}
+
+/*headings*/
+.firstHeading {
+    font-size: 24pt;
+    text-align: center;
+    font-family: "Lobster", cursive;
+    color: white;
+    text-decoration: underline;
+}
+
+/*paragraphs*/
+.para {
+    font-family: "Lobster", cursive;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.para:hover {
+    color:#F05678;
+    cursor: pointer;
+}
