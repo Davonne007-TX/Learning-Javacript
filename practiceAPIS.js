@@ -130,7 +130,7 @@ const getAllPokemon = async () => {
     pokemonDiv.innerHTML = `
      <div class="my-container">
       <h1>Pokemon</h1>
-      <h2>Name: ${pokemon.name}</h2>
+      <h2>${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h2>
       <p>Height: ${pokemon.height}</p>
       <p>Weight: ${pokemon.weight}</p>
       <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
