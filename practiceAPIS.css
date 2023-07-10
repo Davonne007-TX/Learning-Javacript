@@ -1,4 +1,19 @@
 /*pokemon*/
-h1 { 
+h1 {
     text-align: center;
+    color:  #FFDE00;
+    font-size: 28pt;
+    text-shadow: 3px 3px #3B4CCA;
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: 3px;
+    text-decoration: underline;
+  }
+
+.my-container {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
