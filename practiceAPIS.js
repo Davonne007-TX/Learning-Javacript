@@ -128,6 +128,7 @@ const getAllPokemon = async () => {
   
     const pokemonDiv = document.createElement("div");
     pokemonDiv.innerHTML = `
+     <div class="my-container">
       <h1>Pokemon</h1>
       <h2>Name: ${pokemon.name}</h2>
       <p>Height: ${pokemon.height}</p>
@@ -135,6 +136,7 @@ const getAllPokemon = async () => {
       <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
       <img src="${pokemon.sprites.back_shiny}">
       <img src="${pokemon.sprites.front_shiny}">
+      </div>
     `;
   
     pokemonContainer.appendChild(pokemonDiv);
