@@ -1,3 +1,8 @@
+/*html*/
+html {
+    background-color:#FFE4C2;
+}
+
 /*pokemon*/
 h1 {
     text-align: center;
@@ -12,7 +17,7 @@ h1 {
 
 .my-container {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -32,3 +37,10 @@ p {
     margin-left: 20px;
     font-size: 16pt;
 }
+
+.pokemonImage {
+    width: 100%;
+    max-width: 140px;
+}
+
+

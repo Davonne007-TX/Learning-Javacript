@@ -133,9 +133,9 @@ const getAllPokemon = async () => {
       <h2>${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h2>
       <p>Height: ${pokemon.height}</p>
       <p>Weight: ${pokemon.weight}</p>
-      <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
-      <img src="${pokemon.sprites.back_shiny}">
-      <img src="${pokemon.sprites.front_shiny}">
+      <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}" class="pokemonImage">
+      <img src="${pokemon.sprites.back_shiny}" class="pokemonImage">
+      <img src="${pokemon.sprites.front_shiny}" class="pokemonImage">
       </div>
     `;
   
